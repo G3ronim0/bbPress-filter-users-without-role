@@ -9,7 +9,7 @@ defined( 'ABSPATH' )
 	*/
 add_action( 'pre_get_users', 'bbp_user_without_role' );
 function bbp_user_without_role( $query ) {
-	global $pagenow;
+	global $pagenow, $wpdb;
 
 	if ( ! is_admin() && 'users.php' !== $pagenow && ! isset( $_GET['orderby'] ) ) {
 			return;
@@ -18,10 +18,10 @@ function bbp_user_without_role( $query ) {
 	$filter = $query->get( 'orderby' );
 
 	if ( 'no-forum-role' === $filter ) {
-			$query->set( 'meta_key','wp_capabilities' );
+			$query->set( 'meta_key',$wpdb->prefix . 'capabilities' );
 			$query->set( 'meta_query' , array(
 					array(
-									'key' => 'wp_capabilities',
+									'key' => $wpdb->prefix . 'capabilities',
 									'value' => 'bbp_',
 									'compare' => 'NOT LIKE',
 							),
