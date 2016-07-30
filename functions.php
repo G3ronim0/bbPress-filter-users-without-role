@@ -27,6 +27,8 @@ function bbp_user_without_role( $query ) {
 							),
 					)
 			);
+			$query->set( 'orderby', 'registered' );
+			$query->set( 'order', 'ASC' );
 	}
 }
 

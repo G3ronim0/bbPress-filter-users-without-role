@@ -13,7 +13,7 @@
  * Description: Make bbPress filter for Users without forum role
  * Author:      Sadler Jérôme
  * Author URI:  https://sadler-jerome.fr
- * Version:     1.0.2
+ * Version:     1.0.3
  * Text Domain: bbpress-sfr
  * Domain Path: /languages/
  */
