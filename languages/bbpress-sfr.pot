@@ -1,9 +1,11 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: bbPress Filter Users Without Role\n"
 "POT-Creation-Date: 2016-08-01 13:33+0200\n"
-"PO-Revision-Date: 2016-08-01 13:38+0200\n"
+"PO-Revision-Date: 2016-08-01 13:33+0200\n"
+"Last-Translator: FX Bénard <fx@fxbenard.com>\n"
 "Language-Team: FX Bénard <fx@fxbenard.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -12,11 +14,9 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: bbpress-filter-users-without-role.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
-"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
-"esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: FX Bénard <fx@fxbenard.com>\n"
-"Language: fr_FR\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -25,31 +25,28 @@ msgid ""
 "bbPress is not activated or not installed ! bbPress Filter Users Without "
 "Role cannot work without it. Please install or activate it."
 msgstr ""
-"bbPress n'est pas activé ou pas installé ! bbPress Filter Users Without "
-"Role ne peut pas fonctionner sans. Veuillez l’installer ou l'activer."
 
 #: functions.php:44
 msgid "All users"
-msgstr "Tous les utilisateurs"
+msgstr ""
 
 #: functions.php:47
 msgid "Users without forum role"
-msgstr "Utilisateurs sans rôle sur le forum"
+msgstr ""
 
 #. Plugin Name of the plugin/theme
 msgid "bbPress Filter Users Without Role"
-msgstr "bbPress Filter Users Without Role"
+msgstr ""
 
 #. Plugin URI of the plugin/theme
 #. Author URI of the plugin/theme
 msgid "https://sadler-jerome.fr"
-msgstr "https://sadler-jerome.fr"
+msgstr ""
 
 #. Description of the plugin/theme
 msgid "Make bbPress filter for Users without forum role"
 msgstr ""
-"Permettez à bbPress de filtrer les utilisateurs sans rôle sur le forum"
 
 #. Author of the plugin/theme
 msgid "Sadler Jérôme"
-msgstr "Sadler Jérôme"
+msgstr ""
