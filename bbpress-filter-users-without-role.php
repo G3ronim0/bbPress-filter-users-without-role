@@ -26,6 +26,8 @@ define( 'BBPRESS_SFR_DIR', plugin_dir_path( __FILE__ ) );
 add_action( 'plugins_loaded', 'bbpress_sfr_load' );
 function bbpress_sfr_load() {
 
+	load_plugin_textdomain( 'bbpress-sfr', false, plugin_basename( dirname( __FILE__ ) ) . '/languages' );
+
 	if ( ! class_exists( 'BBP_Admin' ) ) {
 		require_once BBPRESS_SFR_DIR . 'dependency.php';
 		return;
