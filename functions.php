@@ -3,7 +3,7 @@ defined( 'ABSPATH' )
 	or die( 'No direct load !' );
 
 /**
-	* WP Query Get users without forim roles
+	* WP Query Get users without forum roles
 	*
 	* @since 1.0.1
 	*/
